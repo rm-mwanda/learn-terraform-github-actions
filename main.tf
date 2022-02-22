@@ -20,13 +20,13 @@ terraform {
 
   }
 
-  cloud {
-    organization = "acg-terraform-greylord"
-
-    workspaces {
-      name = "gh-actions-demo"
-    }
-  }
+#  cloud {
+#    organization = "acg-terraform-greylord"
+#
+#    workspaces {
+#      name = "gh-actions-demo"
+#    }
+#  }
 }
 
 
